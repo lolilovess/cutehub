@@ -1,7 +1,7 @@
 # 🧶 CuteHub: The GitHub Hijack 🍦
 ### "Making the internet look like handmade ivory paper."
 
-hi!! 👋 i'm **loli**. i looked at github and saw way too much corporate blue and "trash white" (#ffffff). since i have 38.6m+ and a character to protect, i decided to stitch together a custom **Stylus** skin to turn this place into a cozy ivory archive.
+hi!! 👋 i'm **loli**. i looked at github and saw way too much corporate blue and "trash white" (#ffffff). since i have a brain and a character to protect, i decided to stitch together a custom **Stylus** skin to turn this place into a cozy ivory archive.
 
 **CuteHub** is the official repository for the CSS snippet that makes github feel like a heavy typewriter on warm wool.
 
