@@ -25,7 +25,7 @@ github is for building things, and building things should feel cozy.
 
 ## 🛠️ 3. HOW TO APPLY THE HIJACK
 1. **Install Stylus**: Get the extension for your browser.
-2. **Copy the Code**: Grab the snippet from `cutehub.css` in this repo.
+2. **Copy the Code**: Grab the snippet from `cutehuub.css` in this repo.
 3. **Write Style**: Click Stylus -> Write style for `github.com`.
 4. **Save & Relax**: Enjoy the ivory vibes.
 
