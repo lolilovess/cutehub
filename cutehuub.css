@@ -1,0 +1,58 @@
+/* --- 🏁 loli's high-tier github skin --- */
+@-moz-document domain("github.com") {
+    :root {
+        /* the ivory palette */
+        --paper-main: #f3efe0 !important;
+        --paper-side: #e6e1cf !important;
+        --ink-bold: #3a352f !important;
+        --gold-seal: #d4af37 !important;
+        --font-main: "Comic Sans MS", "Comic Sans", cursive;
+    }
+
+    /* kill the white background */
+    body, 
+    .Header, 
+    .bg-visual-hide,
+    .gh-header,
+    main {
+        background-color: var(--paper-main) !important;
+        color: var(--ink-bold) !important;
+        font-family: var(--font-main) !important;
+    }
+
+    /* ivory sidebars and headers */
+    .Box, 
+    .TimelineItem-badge,
+    #glue-sidebar,
+    .color-bg-subtle {
+        background-color: var(--paper-side) !important;
+        border-color: var(--gold-seal) !important;
+    }
+
+    /* bold ink typography */
+    * {
+        font-family: var(--font-main) !important;
+        font-weight: 800 !important;
+        border-color: var(--ink-bold) !important;
+    }
+
+    /* gold-plated buttons and links */
+    a, .btn-primary {
+        color: var(--gold-seal) !important;
+    }
+    
+    .btn-primary {
+        background-color: var(--ink-bold) !important;
+        border-radius: 18px !important;
+    }
+
+    /* b&w character integrity: grayscale icons */
+    .octicon {
+        filter: grayscale(100%) brightness(0.5);
+    }
+
+    /* pro-stitch rounding */
+    .Box, .btn, .Label, img {
+        border-radius: 18px !important;
+    }
+}
