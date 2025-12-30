@@ -1,16 +1,23 @@
 # 🧶 CuteHub: The GitHub Hijack 🍦
 <div align="center">
-
-# 🏁 lolilovess // cutehub
-> "the internet is sharp, so i made it round." 🍦
-
-| tension | status | location |
-| :---: | :---: | :---: |
-| 100% 🧶 | sturdy | korea 🇰🇷 |
-
+  <img src="https://capsule-render.vercel.app/render?type=soft&color=f3efe0&height=100&text=v2.0%20the%20rounding&fontSize=50&fontColor=3a352f" />
 </div>
 
+> ### 🧶 tension status
+> **perfectly sturdy.** we finally rounded the sidebar and fixed the about section. no loose threads allowed in the 38.6m usd empire. 🏁
+
 ---
+
+### 🍦 release notes
+* **ink-heavy borders**: bumped everything to 2px for that "drawn" look.
+* **ivory hijack**: zero #ffffff pixels detected. [cite: 2025-12-28]
+* **rounding**: 22px is the new law.
+
+---
+
+<p align="center">
+  <code>made with care in korea 🇰🇷</code>
+</p>
 
 ### 📦 current yarns
 > [!IMPORTANT]
