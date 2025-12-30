@@ -4,7 +4,8 @@
 </div>
 
 > ### 🧶 tension status
-> **perfectly sturdy.** we finally rounded the sidebar and fixed the about section. no loose threads allowed in the 38.6m usd empire. 🏁
+> **perfectly sturdy.** we finally rounded the sidebar and fixed the about section. no loose threads allowed in the crochet empire.
+> 
 
 ---
 
