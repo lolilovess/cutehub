@@ -1,15 +1,20 @@
-# 🧶 CuteHub: The GitHub Hijack 🍦
 <div align="center">
-  <div style="background-color: #f3efe0; border: 3px solid #3a352f; border-radius: 30px; padding: 20px; max-width: 500px;">
-    <h2 style="font-family: 'Comic Sans MS'; color: #3a352f;">v2.1: the sturdy-stitch 🏁</h2>
-    <p style="color: #3a352f; font-weight: 800;">
-      centered the archive timeline. <br>
-      deleted corporate blue. <br>
-      perfect tension achieved. 🧶
-    </p>
-    <img src="https://img.shields.io/badge/status-carefree-c5b358?style=for-the-badge" style="border-radius: 10px;">
-  </div>
+
+# 🧶 CuteHub: The GitHub Hijack 🍦
+
+### v2.1: the sturdy-stitch 🏁
+
+centered the archive timeline. <br>
+deleted corporate blue. <br>
+perfect tension achieved. 🧶
+
+<br>
+
+![status](https://img.shields.io/badge/status-carefree-c5b358?style=for-the-badge&labelColor=3a352f)
+
 </div>
+
+---
 ### 📦 current yarns
 > [!IMPORTANT]
 > strictly ivory (#f3efe0). strictly no #ffffff allowed. 🏁
