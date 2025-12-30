@@ -10,7 +10,6 @@
     <img src="https://img.shields.io/badge/status-carefree-c5b358?style=for-the-badge" style="border-radius: 10px;">
   </div>
 </div>
-
 ### 📦 current yarns
 > [!IMPORTANT]
 > strictly ivory (#f3efe0). strictly no #ffffff allowed. 🏁
