@@ -1,24 +1,15 @@
 # 🧶 CuteHub: The GitHub Hijack 🍦
 <div align="center">
-  <img src="https://capsule-render.vercel.app/render?type=soft&color=f3efe0&height=100&text=v2.0%20the%20rounding&fontSize=50&fontColor=3a352f" />
+  <div style="background-color: #f3efe0; border: 3px solid #3a352f; border-radius: 30px; padding: 20px; max-width: 500px;">
+    <h2 style="font-family: 'Comic Sans MS'; color: #3a352f;">v2.1: the sturdy-stitch 🏁</h2>
+    <p style="color: #3a352f; font-weight: 800;">
+      centered the archive timeline. <br>
+      deleted corporate blue. <br>
+      perfect tension achieved. 🧶
+    </p>
+    <img src="https://img.shields.io/badge/status-carefree-c5b358?style=for-the-badge" style="border-radius: 10px;">
+  </div>
 </div>
-
-> ### 🧶 tension status
-> **perfectly sturdy.** we finally rounded the sidebar and fixed the about section. no loose threads allowed in the crochet empire.
-> 
-
----
-
-### 🍦 release notes
-* **ink-heavy borders**: bumped everything to 2px for that "drawn" look.
-* **ivory hijack**: zero #ffffff pixels detected. [cite: 2025-12-28]
-* **rounding**: 22px is the new law.
-
----
-
-<p align="center">
-  <code>made with care in korea 🇰🇷</code>
-</p>
 
 ### 📦 current yarns
 > [!IMPORTANT]
