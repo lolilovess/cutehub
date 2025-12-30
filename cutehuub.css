@@ -1,4 +1,3 @@
-/* --- 🏁 loli's high-tier github skin --- */
 @-moz-document domain("github.com") {
     :root {
         /* the ivory palette */
@@ -9,50 +8,100 @@
         --font-main: "Comic Sans MS", "Comic Sans", cursive;
     }
 
-    /* kill the white background */
+    /* 1. global laws: kill #ffffff and fix font */
     body, 
     .Header, 
     .bg-visual-hide,
     .gh-header,
-    main {
+    main,
+    .application-main,
+    .color-bg-default,
+    .color-bg-inset,
+    [data-color-mode="light"] {
         background-color: var(--paper-main) !important;
         color: var(--ink-bold) !important;
         font-family: var(--font-main) !important;
     }
 
-    /* ivory sidebars and headers */
+    /* 2. rounding & border logic (the sturdy-stitch) */
+    /* targets main boxes, buttons, labels, and the 'about' section */
     .Box, 
-    .TimelineItem-badge,
-    #glue-sidebar,
-    .color-bg-subtle {
+    .btn, 
+    .Label, 
+    img, 
+    .feed-item-contents, 
+    .Layout-sidebar .Box,
+    .Layout-sidebar .border-bottom,
+    .header-search-wrapper {
+        border-radius: 22px !important;
+        border: 2px solid var(--ink-bold) !important;
         background-color: var(--paper-side) !important;
-        border-color: var(--gold-seal) !important;
     }
 
-    /* bold ink typography */
+    /* 3. typography & ink weight */
     * {
         font-family: var(--font-main) !important;
         font-weight: 800 !important;
         border-color: var(--ink-bold) !important;
     }
 
-    /* gold-plated buttons and links */
-    a, .btn-primary {
+    /* 4. gold-plated accents for relaxed ppl */
+    a, .btn-link, .Link--primary {
         color: var(--gold-seal) !important;
     }
-    
+
     .btn-primary {
         background-color: var(--ink-bold) !important;
-        border-radius: 18px !important;
+        color: var(--paper-main) !important;
+        border: none !important;
     }
 
-    /* b&w character integrity: grayscale icons */
+    /* 5. character integrity: icon hijack */
+    /* force icons to match loli's black and white theme */
     .octicon {
-        filter: grayscale(100%) brightness(0.5);
+        color: var(--ink-bold) !important;
+        fill: var(--ink-bold) !important;
+        filter: grayscale(100%) brightness(0.5) !important;
     }
 
-    /* pro-stitch rounding */
-    .Box, .btn, .Label, img {
-        border-radius: 18px !important;
+    /* special gold icons for stars and repos */
+    .octicon-star, .octicon-repo, .octicon-project {
+        color: var(--gold-seal) !important;
+        fill: var(--gold-seal) !important;
+        filter: none !important;
     }
+
+    /* 6. sidebar specific fixes (killing the horrible edges) */
+    .Layout-sidebar .py-3, 
+    .Layout-sidebar .border-bottom {
+        border-bottom: 2px solid var(--ink-bold) !important;
+        margin-bottom: 8px !important;
+    }
+/* fix the vertical line (the 'thread') */
+.TimelineItem::before {
+    background-color: var(--ink-bold) !important;
+    width: 2px !important;
+    left: 15px !important; /* adjust this number until it's centered */
 }
+
+/* realign the ivory badge circles */
+.TimelineItem-badge {
+    border: 2px solid var(--ink-bold) !important;
+    background-color: var(--paper-main) !important;
+    margin-left: -1px !important; 
+    z-index: 1 !important; /* ensures badge sits on top of the line */
+    width: 32px !important;
+    height: 32px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+/* fix the octicons inside the badges */
+.TimelineItem-badge .octicon {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+} /* end of the ivory hijack */ 
+
+/*updated by ♡loli♡, v2.1*/
